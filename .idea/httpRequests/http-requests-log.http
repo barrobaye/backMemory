@@ -1,0 +1,90 @@
+PATCH http://localhost:8081/api/clients
+Content-Type: application/json
+Content-Length: 139
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.10)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+{
+  "id": "",
+  "nomComplet":"Mamadou barro",
+  "telephone":772322321,
+  "adresse":"breukh",
+  "email":"iiuiuuu",
+  "password":"iuoooouo"
+}
+
+<> 2024-02-20T173515.201.json
+
+###
+
+PATCH http://localhost:8081/api/clients
+Content-Type: application/json
+Content-Length: 139
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.10)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+{
+  "id": "",
+  "nomComplet":"Mamadou barro",
+  "telephone":772322321,
+  "adresse":"breukh",
+  "email":"iiuiuuu",
+  "password":"iuoooouo"
+}
+
+<> 2024-02-20T171341.201.json
+
+###
+
+PATCH http://localhost:8081/api/clients
+Content-Type: application/json
+Content-Length: 139
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.10)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+{
+  "id": "",
+  "nomComplet":"Mamadou barro",
+  "telephone":772322321,
+  "adresse":"breukh",
+  "email":"iiuiuuu",
+  "password":"iuoooouo"
+}
+
+<> 2024-02-20T170615.500.json
+
+###
+
+PATCH http://localhost:8081/api/clients
+Content-Type: application/json
+Content-Length: 139
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.10)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+{
+  "id": "",
+  "nomComplet":"Mamadou barro",
+  "telephone":772322321,
+  "adresse":"breukh",
+  "email":"iiuiuuu",
+  "password":"iuoooouo"
+}
+
+<> 2024-02-20T165842.500.json
+
+###
+
+PATCH http://localhost:8081/api/clients
+Content-Length: 0
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.10)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+<> 2024-02-20T165810.400.json
+
+###
+
