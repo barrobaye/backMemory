@@ -2,6 +2,7 @@ package org.example.myusers.mapper;
 
 import lombok.RequiredArgsConstructor;
 import org.example.baseservice.dto.UserDto;
+import org.example.baseservice.event.EmployerServiceStatus;
 import org.example.baseservice.event.ServiceStatus;
 import org.example.baseservice.event.UsersStatus;
 import org.example.myusers.entity.Employer;
@@ -18,10 +19,8 @@ public class EmployerServiceMapper {
         dto.setAdresse(employer.getAdresse());
         dto.setEmail(employer.getEmail());
         dto.setPassword(employer.getPassword());
-//        dto.setUserStatus(employer.getUserStatus().name());
-//        dto.setServiceStatus(employer.getServiceStatus().name());
         dto.setUserStatus(employer.getUserStatus().name());
-        dto.setServiceStatus(employer.getServiceStatus().name());
+        dto.setEmplserviceStatus((employer.getEmplserviceStatus().name()));
         return dto;
     }
 
@@ -33,9 +32,7 @@ public class EmployerServiceMapper {
                 .email(userDto.getEmail())
                 .password(userDto.getPassword())
                 .userStatus(UsersStatus.valueOf(userDto.getUserStatus()))
-                .serviceStatus(ServiceStatus.valueOf(userDto.getServiceStatus()))
-//                .userStatus(userDto.getUserStatus())
-//                .serviceStatus(userDto.getServiceStatus())
+                .emplserviceStatus(EmployerServiceStatus.valueOf(userDto.getEmplserviceStatus()))
                 .build();
     }
 

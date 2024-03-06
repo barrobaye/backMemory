@@ -5,12 +5,16 @@ import lombok.Data;
 import lombok.RequiredArgsConstructor;
 import lombok.extern.slf4j.Slf4j;
 import org.example.baseservice.dto.UserDto;
+import org.example.baseservice.event.EmployerEvens;
+import org.example.baseservice.event.EmployerServiceStatus;
+import org.example.baseservice.event.UsersStatus;
 import org.example.myusers.entity.Employer;
 import org.example.myusers.mapper.EmployerServiceMapper;
 import org.example.myusers.repository.EmployerRepository;
 import org.springframework.stereotype.Service;
 
 import java.util.List;
+import java.util.UUID;
 import java.util.stream.Collectors;
 
 @Service
@@ -28,11 +32,21 @@ public List <UserDto> getAllUsers(){
 @Transactional
     public Employer saveEmployer(UserDto userDto){
     userDto.setUserStatus("CREATED");
-    userDto.setServiceStatus("INIT");
+    userDto.setEmplserviceStatus("INIT");
     Employer employer= employerRepository.save(mapper.UserDtoToEmployer(userDto));
     userDto.setId(employer.getId());
     return employer;
 }
+@Transactional
+ public void updateEmployer (EmployerEvens evens){
+     UUID employerId = evens.getEmployerServiceDto().getEmployer_id();
+     employerRepository.findById(employerId).ifPresent(employer -> {
+         boolean isSaved = EmployerServiceStatus.UPDATE.equals(evens.getEmployerServiceStatus());
+         UsersStatus usersStatus = isSaved ? UsersStatus.UPDATE : UsersStatus.ERREUR;
+         employer.setUserStatus(usersStatus);
+         employer.setEmplserviceStatus(evens.getEmployerServiceStatus());
+     });
+ }
 
 
 

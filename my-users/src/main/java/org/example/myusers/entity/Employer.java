@@ -8,7 +8,7 @@ import lombok.AllArgsConstructor;
 import lombok.Builder;
 import lombok.Data;
 import lombok.NoArgsConstructor;
-import org.example.baseservice.event.ServiceStatus;
+import org.example.baseservice.event.EmployerServiceStatus;
 import org.example.baseservice.event.UsersStatus;
 
 import java.util.UUID;
@@ -26,10 +26,8 @@ public class Employer {
     private String adresse;
     private String  email;
     private String password;
-//    ALTER COLUMN userStatus TYPE smallint
-//    USING service_status::smallint;
     private UsersStatus userStatus;
-    private ServiceStatus serviceStatus;
+    private EmployerServiceStatus emplserviceStatus;
 //private String userStatus;
 //    private String serviceStatus;
 }

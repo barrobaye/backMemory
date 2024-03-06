@@ -19,5 +19,5 @@ public class UserDto {
     private String password;
     private String adresse;
     private String userStatus;
-    private String serviceStatus;
+    private String emplserviceStatus;
 }

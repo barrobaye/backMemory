@@ -1,3 +1,315 @@
+GET http://localhost:8082/api/services
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.10)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+<> 2024-03-05T171751.200.json
+
+###
+
+PATCH http://localhost:8082/api/services
+Content-Type: application/json
+Content-Length: 87
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.10)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+{
+  "id": "",
+  "typeService": "638c8c51-4e68-4765-abce-fe3e339c6327",
+  "status": ""
+}
+
+<> 2024-03-05T170213.201.json
+
+###
+
+PATCH http://localhost:8082/api/services
+Content-Type: application/json
+Content-Length: 87
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.10)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+{
+  "id": "",
+  "typeService": "638c8c51-4e68-4765-abce-fe3e339c6327",
+  "status": ""
+}
+
+<> 2024-03-05T170044.500.json
+
+###
+
+PATCH http://localhost:8082/api/services
+Content-Type: application/json
+Content-Length: 87
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.10)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+{
+  "id": "",
+  "typeService": "638c8c51-4e68-4765-abce-fe3e339c6327",
+  "status": ""
+}
+
+<> 2024-03-05T165958.500.json
+
+###
+
+PATCH http://localhost:8082/api/services
+Content-Type: application/json
+Content-Length: 87
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.10)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+{
+  "id": "",
+  "typeService": "638c8c51-4e68-4765-abce-fe3e339c6327",
+  "status": ""
+}
+
+<> 2024-03-05T165644.500.json
+
+###
+
+PATCH http://localhost:8082/api/services
+Content-Type: application/json
+Content-Length: 87
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.10)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+{
+  "id": "",
+  "typeService": "638c8c51-4e68-4765-abce-fe3e339c6327",
+  "status": ""
+}
+
+<> 2024-03-05T165547.500.json
+
+###
+
+PATCH http://localhost:8082/api/typeservice
+Content-Type: application/json
+Content-Length: 42
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.10)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+{
+  "id": "",
+  "libelle": "AIDE MAISON"
+}
+
+<> 2024-03-05T153813.201.json
+
+###
+
+PATCH http://localhost:8082/api/typeservice
+Content-Type: application/json
+Content-Length: 48
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.10)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+{
+  "id": "",
+  "libelle": "NETTOYAGE COMPLET"
+}
+
+<> 2024-03-05T153447.201.json
+
+###
+
+PATCH http://localhost:8082/api/typeservice
+Content-Type: application/json
+Content-Length: 35
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.10)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+{
+  "id": "",
+  "libelle": "BOYE"
+}
+
+<> 2024-03-05T153251.201.json
+
+###
+
+PATCH http://localhost:8082/api/typeservice
+Content-Type: application/json
+Content-Length: 38
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.10)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+{
+  "id": "",
+  "libelle": "MENAGER"
+}
+
+<> 2024-03-05T153241.201.json
+
+###
+
+PATCH http://localhost:8082/api/typeservice
+Content-Type: application/json
+Content-Length: 37
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.10)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+{
+  "id": "",
+  "libelle": "LINGER"
+}
+
+<> 2024-03-05T153211.201.json
+
+###
+
+PATCH http://localhost:8082/api/typeservice
+Content-Type: application/json
+{:
+  "id": "",
+  "libelle": "NETTOYEUR"
+}:
+Content-Length: 0
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.10)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+<> 2024-03-05T152958.400.html
+
+###
+
+PATCH http://localhost:8082/api/typeservice
+Content-Type: application/json
+{:
+  "id": "",
+  "libelle": "NETTOYEUR",
+}:
+Content-Length: 0
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.10)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+<> 2024-03-05T152626.400.html
+
+###
+
+PATCH http://localhost:8082/api/typeservice
+Content-Type: application/json
+{:
+  "id": "",
+  "libelle": "LINGER",
+}:
+Content-Length: 0
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.10)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+<> 2024-03-05T152605.400.html
+
+###
+
+PATCH http://localhost:8082/api/typeservice
+Content-Type: application/json
+{:
+  "id": "",
+  "libelle": "BOYE",
+}:
+Content-Length: 0
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.10)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+<> 2024-03-05T152537.400.html
+
+###
+
+PATCH http://localhost:8082/api/typeservice
+Content-Type: application/json
+{:
+  "id": "",
+  "libelle": "MENAGER",
+}:
+Content-Length: 0
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.10)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+<> 2024-03-05T152514.400.html
+
+###
+
+PATCH http://localhost:8082/api/typeservice
+Content-Type: application/json
+<> 2024-03-05T152350.404.json:
+<> 2024-03-05T152339.404.json:
+Content-Length: 0
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.10)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+<> 2024-03-05T152420.400.html
+
+###
+
+PATCH http://localhost:8082/api/typeservice
+Content-Length: 0
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.10)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+<> 2024-03-05T152350.404.json
+
+###
+
+PATCH http://localhost:8082/api/typeservice
+Content-Length: 0
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.10)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+<> 2024-03-05T152339.404.json
+
+###
+
+PATCH http://localhost:8082/api/services
+Content-Length: 0
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.10)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+<> 2024-03-05T151557.400.json
+
+###
+
+PATCH http://localhost:8081/api/clients
+Content-Type: application/json
+Content-Length: 139
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.10)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+{
+  "id": "",
+  "nomComplet":"Mamadou barro",
+  "telephone":772322321,
+  "adresse":"breukh",
+  "email":"iiuiuuu",
+  "password":"iuoooouo"
+}
+
+<> 2024-02-22T153158.201.json
+
+###
+
 PATCH http://localhost:8081/api/clients
 Content-Type: application/json
 Content-Length: 139
