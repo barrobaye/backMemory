@@ -5,7 +5,7 @@ import lombok.Data;
 import lombok.RequiredArgsConstructor;
 import lombok.extern.slf4j.Slf4j;
 import org.example.baseservice.dto.UserDto;
-import org.example.baseservice.event.EmployerEvens;
+import org.example.baseservice.event.ServicesEmployerEvens;
 import org.example.baseservice.event.EmployerServiceStatus;
 import org.example.baseservice.event.UsersStatus;
 import org.example.myusers.entity.Employer;
@@ -38,7 +38,7 @@ public List <UserDto> getAllUsers(){
     return employer;
 }
 @Transactional
- public void updateEmployer (EmployerEvens evens){
+ public void updateEmployerService (ServicesEmployerEvens evens){
      UUID employerId = evens.getEmployerServiceDto().getEmployer_id();
      employerRepository.findById(employerId).ifPresent(employer -> {
          boolean isSaved = EmployerServiceStatus.UPDATE.equals(evens.getEmployerServiceStatus());

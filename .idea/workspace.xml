@@ -5,54 +5,36 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="8cbc389b-802b-4a78-84af-9ab598d7f66c" name="Changes" comment="added simple">
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/api-getway/src/main/java/org/example/apigetway/ApiGetwayConfiguration.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/base-service/src/main/java/org/example/baseservice/dto/EmployerServiceDto.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/base-service/src/main/java/org/example/baseservice/dto/MyServiceDto.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/base-service/src/main/java/org/example/baseservice/dto/TypeServiceDto.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/base-service/src/main/java/org/example/baseservice/event/EmployerServiceStatus.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/base-service/src/main/java/org/example/baseservice/event/EmployerStatus.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/base-service/src/main/java/org/example/baseservice/event/Evens.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/my-services/src/main/java/org/example/myservices/controller/EmployerServiceController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/my-services/src/main/java/org/example/myservices/controller/MyServiceController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/my-services/src/main/java/org/example/myservices/controller/TypeServiceController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/my-services/src/main/java/org/example/myservices/entity/Contrat.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/my-services/src/main/java/org/example/myservices/entity/EmployerService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/my-services/src/main/java/org/example/myservices/entity/MyServices.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/my-services/src/main/java/org/example/myservices/entity/TypeService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/my-services/src/main/java/org/example/myservices/mapper/EmployerServiceMapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/my-services/src/main/java/org/example/myservices/mapper/ServiceMapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/my-services/src/main/java/org/example/myservices/mapper/TypeServiceMapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/my-services/src/main/java/org/example/myservices/repository/EmployerServiceRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/my-services/src/main/java/org/example/myservices/repository/MyServiceRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/my-services/src/main/java/org/example/myservices/repository/TypeServiceRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/my-services/src/main/java/org/example/myservices/services/ServiceEmployer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/my-services/src/main/java/org/example/myservices/services/ServiceSrvs.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/my-services/src/main/java/org/example/myservices/services/ServiceTypeService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources.local.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.local.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/a5846d40-cc04-47e3-a096-88d3e669a99b.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/a5846d40-cc04-47e3-a096-88d3e669a99b/storage_v2/_src_/database/postgres.edMnLQ.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/a5846d40-cc04-47e3-a096-88d3e669a99b/storage_v2/_src_/database/postgres.edMnLQ/schema/information_schema.FNRwLQ.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/a5846d40-cc04-47e3-a096-88d3e669a99b/storage_v2/_src_/database/postgres.edMnLQ/schema/pg_catalog.0S1ZNQ.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/a5846d40-cc04-47e3-a096-88d3e669a99b/storage_v2/_src_/database/postgres.edMnLQ/schema/public.abK9xQ.meta" beforeDir="false" />
+      <change afterPath="$PROJECT_DIR$/base-service/src/main/java/org/example/baseservice/event/ServicesEmployerEvens.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/my-services/src/main/java/org/example/myservices/config/ServiceEmployerConsumerKafka.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/22f67c8a-ff93-4bae-85e0-47a9c8ab7058.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/22f67c8a-ff93-4bae-85e0-47a9c8ab7058.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/d9727fd0-4131-4863-8f75-728b72690a02.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/d9727fd0-4131-4863-8f75-728b72690a02.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/httpRequests/http-requests-log.http" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/httpRequests/http-requests-log.http" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/api-getway/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/api-getway/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/api-getway/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/api-getway/src/main/resources/application.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/base-service/src/main/java/org/example/baseservice/dto/UserDto.java" beforeDir="false" afterPath="$PROJECT_DIR$/base-service/src/main/java/org/example/baseservice/dto/UserDto.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/base-service/src/main/java/org/example/baseservice/event/ServiceStatus.java" beforeDir="false" afterPath="$PROJECT_DIR$/base-service/src/main/java/org/example/baseservice/event/ServiceStatus.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/base-service/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/base-service/src/main/resources/application.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/my-services/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/my-services/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/my-services/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/my-services/src/main/resources/application.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/my-users/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/my-users/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/my-users/src/main/java/org/example/myusers/controller/EmployerControler.java" beforeDir="false" afterPath="$PROJECT_DIR$/my-users/src/main/java/org/example/myusers/controller/EmployerControler.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/my-users/src/main/java/org/example/myusers/entity/Employer.java" beforeDir="false" afterPath="$PROJECT_DIR$/my-users/src/main/java/org/example/myusers/entity/Employer.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/my-users/src/main/java/org/example/myusers/mapper/EmployerServiceMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/my-users/src/main/java/org/example/myusers/mapper/EmployerServiceMapper.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/my-users/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/my-users/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/base-service/src/main/java/org/example/baseservice/dto/UserServiceDto.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/base-service/src/main/java/org/example/baseservice/event/EmployerEvens.java" beforeDir="false" afterPath="$PROJECT_DIR$/base-service/src/main/java/org/example/baseservice/event/EmployerEvens.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/base-service/src/main/java/org/example/baseservice/event/ServicesEvens.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/base-service/target/classes/org/example/baseservice/dto/UserServiceDto.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/base-service/target/classes/org/example/baseservice/event/Evens.class" beforeDir="false" afterPath="$PROJECT_DIR$/base-service/target/classes/org/example/baseservice/event/Evens.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/my-services/src/main/java/org/example/myservices/controller/EmployerServiceController.java" beforeDir="false" afterPath="$PROJECT_DIR$/my-services/src/main/java/org/example/myservices/controller/EmployerServiceController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/my-services/src/main/java/org/example/myservices/entity/EmployerService.java" beforeDir="false" afterPath="$PROJECT_DIR$/my-services/src/main/java/org/example/myservices/entity/EmployerService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/my-services/src/main/java/org/example/myservices/services/ServiceEmployer.java" beforeDir="false" afterPath="$PROJECT_DIR$/my-services/src/main/java/org/example/myservices/services/ServiceEmployer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/my-services/src/main/java/org/example/myservices/services/ServiceTypeService.java" beforeDir="false" afterPath="$PROJECT_DIR$/my-services/src/main/java/org/example/myservices/services/ServiceTypeService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/my-services/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/my-services/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/my-services/target/classes/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/my-services/target/classes/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/my-services/target/classes/org/example/myservices/controller/EmployerServiceController.class" beforeDir="false" afterPath="$PROJECT_DIR$/my-services/target/classes/org/example/myservices/controller/EmployerServiceController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/my-services/target/classes/org/example/myservices/entity/EmployerService$EmployerServiceBuilder.class" beforeDir="false" afterPath="$PROJECT_DIR$/my-services/target/classes/org/example/myservices/entity/EmployerService$EmployerServiceBuilder.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/my-services/target/classes/org/example/myservices/entity/EmployerService.class" beforeDir="false" afterPath="$PROJECT_DIR$/my-services/target/classes/org/example/myservices/entity/EmployerService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/my-services/target/classes/org/example/myservices/services/ServiceEmployer.class" beforeDir="false" afterPath="$PROJECT_DIR$/my-services/target/classes/org/example/myservices/services/ServiceEmployer.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/my-users/src/main/java/org/example/myusers/config/EmployerConsumerKafka.java" beforeDir="false" afterPath="$PROJECT_DIR$/my-users/src/main/java/org/example/myusers/config/EmployerConsumerKafka.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/my-users/src/main/java/org/example/myusers/config/EmployerProducterKafka.java" beforeDir="false" afterPath="$PROJECT_DIR$/my-users/src/main/java/org/example/myusers/config/EmployerProducterKafka.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/my-users/src/main/java/org/example/myusers/config/EmployerServiceKafka.java" beforeDir="false" afterPath="$PROJECT_DIR$/my-users/src/main/java/org/example/myusers/config/EmployerUserKafka.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/my-users/src/main/java/org/example/myusers/service/EmployerService.java" beforeDir="false" afterPath="$PROJECT_DIR$/my-users/src/main/java/org/example/myusers/service/EmployerService.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/my-users/target/classes/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/my-users/target/classes/application.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/my-users/target/classes/org/example/myusers/controller/EmployerControler.class" beforeDir="false" afterPath="$PROJECT_DIR$/my-users/target/classes/org/example/myusers/controller/EmployerControler.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/my-users/target/classes/org/example/myusers/entity/Employer$EmployerBuilder.class" beforeDir="false" afterPath="$PROJECT_DIR$/my-users/target/classes/org/example/myusers/entity/Employer$EmployerBuilder.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/my-users/target/classes/org/example/myusers/entity/Employer.class" beforeDir="false" afterPath="$PROJECT_DIR$/my-users/target/classes/org/example/myusers/entity/Employer.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/my-users/target/classes/org/example/myusers/mapper/EmployerServiceMapper.class" beforeDir="false" afterPath="$PROJECT_DIR$/my-users/target/classes/org/example/myusers/mapper/EmployerServiceMapper.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/my-users/target/classes/org/example/myusers/service/EmployerService.class" beforeDir="false" afterPath="$PROJECT_DIR$/my-users/target/classes/org/example/myusers/service/EmployerService.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -65,6 +47,7 @@
         <option value="Enum" />
         <option value="Interface" />
         <option value="Class" />
+        <option value="Dockerfile" />
       </list>
     </option>
   </component>
@@ -93,12 +76,16 @@
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "HTTP Request.generated-requests | #1.executor": "Run",
+    "HTTP Request.generated-requests | #11.executor": "Run",
     "HTTP Request.generated-requests | #3.executor": "Run",
     "HTTP Request.generated-requests | #4.executor": "Run",
     "HTTP Request.generated-requests | #5.executor": "Run",
     "HTTP Request.generated-requests | #6.executor": "Run",
+    "HTTP Request.generated-requests | #7.executor": "Run",
+    "HTTP Request.generated-requests | #9.executor": "Run",
     "Maven.my-services [clean].executor": "Run",
     "Maven.my-services [install].executor": "Run",
+    "Maven.my-users [clean].executor": "Run",
     "RequestMappingsPanelOrder0": "0",
     "RequestMappingsPanelOrder1": "1",
     "RequestMappingsPanelWidth0": "75",
@@ -148,20 +135,31 @@
     </option>
   </component>
   <component name="RunManager" selected="Spring Boot.MyServicesApplication">
-    <configuration name="generated-requests | #1" type="HttpClient.HttpRequestRunConfigurationType" factoryName="HTTP Request" temporary="true" nameIsGenerated="true" path="$APPLICATION_CONFIG_DIR$/scratches/generated-requests.http" requestIdentifier="#1" runType="Run single request">
-      <method v="2" />
-    </configuration>
-    <configuration name="generated-requests | #3" type="HttpClient.HttpRequestRunConfigurationType" factoryName="HTTP Request" temporary="true" nameIsGenerated="true" path="$APPLICATION_CONFIG_DIR$/scratches/generated-requests.http" index="3" requestIdentifier="#3" runType="Run single request">
-      <method v="2" />
-    </configuration>
-    <configuration name="generated-requests | #4" type="HttpClient.HttpRequestRunConfigurationType" factoryName="HTTP Request" temporary="true" nameIsGenerated="true" path="$APPLICATION_CONFIG_DIR$/scratches/generated-requests.http" index="4" requestIdentifier="#4" runType="Run single request">
-      <method v="2" />
-    </configuration>
-    <configuration name="generated-requests | #5" type="HttpClient.HttpRequestRunConfigurationType" factoryName="HTTP Request" temporary="true" nameIsGenerated="true" path="$APPLICATION_CONFIG_DIR$/scratches/generated-requests.http" index="5" requestIdentifier="#5" runType="Run single request">
+    <configuration name="generated-requests | #11" type="HttpClient.HttpRequestRunConfigurationType" factoryName="HTTP Request" temporary="true" nameIsGenerated="true" path="$APPLICATION_CONFIG_DIR$/scratches/generated-requests.http" index="11" requestIdentifier="#11" runType="Run single request">
       <method v="2" />
     </configuration>
     <configuration name="generated-requests | #6" type="HttpClient.HttpRequestRunConfigurationType" factoryName="HTTP Request" temporary="true" nameIsGenerated="true" path="$APPLICATION_CONFIG_DIR$/scratches/generated-requests.http" index="6" requestIdentifier="#6" runType="Run single request">
       <method v="2" />
+    </configuration>
+    <configuration name="generated-requests | #7" type="HttpClient.HttpRequestRunConfigurationType" factoryName="HTTP Request" temporary="true" nameIsGenerated="true" path="$APPLICATION_CONFIG_DIR$/scratches/generated-requests.http" index="7" requestIdentifier="#7" runType="Run single request">
+      <method v="2" />
+    </configuration>
+    <configuration name="generated-requests | #9" type="HttpClient.HttpRequestRunConfigurationType" factoryName="HTTP Request" temporary="true" nameIsGenerated="true" path="$APPLICATION_CONFIG_DIR$/scratches/generated-requests.http" index="9" requestIdentifier="#9" runType="Run single request">
+      <method v="2" />
+    </configuration>
+    <configuration name="ApiGetwayApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <option name="FRAME_DEACTIVATION_UPDATE_POLICY" value="UpdateClassesAndResources" />
+      <module name="api-getway" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="org.example.apigetway.ApiGetwayApplication" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.example.apigetway.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
     </configuration>
     <configuration name="BackMemoryApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
       <option name="FRAME_DEACTIVATION_UPDATE_POLICY" value="UpdateClassesAndResources" />
@@ -203,11 +201,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="HTTP Request.generated-requests | #11" />
+        <item itemvalue="HTTP Request.generated-requests | #9" />
+        <item itemvalue="Spring Boot.ApiGetwayApplication" />
+        <item itemvalue="HTTP Request.generated-requests | #7" />
         <item itemvalue="HTTP Request.generated-requests | #6" />
-        <item itemvalue="HTTP Request.generated-requests | #5" />
-        <item itemvalue="HTTP Request.generated-requests | #4" />
-        <item itemvalue="HTTP Request.generated-requests | #3" />
-        <item itemvalue="HTTP Request.generated-requests | #1" />
       </list>
     </recent_temporary>
   </component>
@@ -236,6 +234,9 @@
       <workItem from="1709064448436" duration="1158000" />
       <workItem from="1709233493397" duration="4102000" />
       <workItem from="1709649471711" duration="6438000" />
+      <workItem from="1709826789840" duration="13340000" />
+      <workItem from="1710099549453" duration="10970000" />
+      <workItem from="1710168895440" duration="4927000" />
     </task>
     <task id="LOCAL-00001" summary="added simple">
       <option name="closed" value="true" />
@@ -325,7 +326,7 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/my-services/src/main/java/org/example/myservices/services/ServiceEmployer.java</url>
-          <line>16</line>
+          <line>20</line>
           <option name="timeStamp" value="4" />
         </line-breakpoint>
       </breakpoints>

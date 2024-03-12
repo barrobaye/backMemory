@@ -27,7 +27,7 @@ spring:
     generate-ddl: true
 
 topic:
-  name: compte-event-topic
+  name: employer_service-event-topic
 
 eureka:
   client:

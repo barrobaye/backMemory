@@ -20,7 +20,7 @@ public class EmployerService {
     @Id
     private UUID employer_id;
     private UUID myServices;
-    private EmployerServiceStatus employerServiceStatus;
+   // private EmployerServiceStatus employerServiceStatus;
     @Temporal(TemporalType.TIMESTAMP)
     private Date dateCreation;
 

@@ -1,3 +1,90 @@
+PATCH http://localhost:8082/api/employer
+Content-Type: application/json
+Content-Length: 432
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.10)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+{
+  "myServiceDto": {
+    "id": "273f19a6-9ebd-4a16-b852-7d5569921547",
+    "typeService": "638c8c51-4e68-4765-abce-fe3e339c6327",
+    "status": "INDISPONIBLE"
+  },
+  "userDto": {
+    "id": "803b0526-911c-49b0-a42f-1ee7da90daa2",
+    "nomComplet":"Mamadou barro",
+    "telephone":772322321,
+    "adresse":"breukh",
+    "email":"iiuiuuu",
+    "password":"iuoooouo"
+  },
+  "usersStatus": "UPDATE",
+  "evensId": "",
+  "evensDate": ""
+}
+
+<> 2024-03-11T165221.201.json
+
+###
+
+PATCH http://localhost:8082/api/employer
+Content-Type: application/json
+Content-Length: 433
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.10)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+{
+  "myServiceDto": {
+    "id": "273f19a6-9ebd-4a16-b852-7d5569921547",
+    "typeService": "638c8c51-4e68-4765-abce-fe3e339c6327",
+    "status": "INDISPONIBLE"
+  },
+  "userDto": {
+    "id": "803b0526-911c-49b0-a42f-1ee7da90daa2",
+    "nomComplet":"Mamadou barro",
+    "telephone":772322321,
+    "adresse":"breukh",
+    "email":"iiuiuuu",
+    "password":"iuoooouo"
+  },
+  "usersStatus": "CREATED",
+  "evensId": "",
+  "evensDate": ""
+}
+
+<> 2024-03-11T164708.201.json
+
+###
+
+GET http://localhost:8081/api/users
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.10)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+<> 2024-03-11T164326.500.json
+
+###
+
+GET http://localhost:8081/api/users
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.10)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+<> 2024-03-11T164249.500.json
+
+###
+
+GET http://localhost:8082/api/services
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.10)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+<> 2024-03-11T020240.200.json
+
+###
+
 GET http://localhost:8082/api/services
 Connection: Keep-Alive
 User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.10)

@@ -2,7 +2,7 @@ package org.example.myusers.config;
 
 import org.apache.kafka.clients.producer.ProducerConfig;
 import org.apache.kafka.common.serialization.StringSerializer;
-import org.example.baseservice.event.EmployerEvens;
+import org.example.baseservice.event.ServicesEmployerEvens;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
 import org.springframework.kafka.core.DefaultKafkaProducerFactory;
@@ -16,7 +16,7 @@ import java.util.Map;
 @Configuration
 public class EmployerProducterKafka {
     @Bean
-    public ProducerFactory<String, EmployerEvens> employerProducerFactory() {
+    public ProducerFactory<String, ServicesEmployerEvens> employerProducerFactory() {
         Map<String, Object> config = new HashMap<>();
         config.put(ProducerConfig.BOOTSTRAP_SERVERS_CONFIG, "localhost:19092");
         config.put(ProducerConfig.KEY_SERIALIZER_CLASS_CONFIG, StringSerializer.class);
@@ -24,7 +24,7 @@ public class EmployerProducterKafka {
         return new DefaultKafkaProducerFactory<>(config);
     }
     @Bean
-    public KafkaTemplate<String, EmployerEvens> employerkafkaTemplate() {
+    public KafkaTemplate<String, ServicesEmployerEvens> employerkafkaTemplate() {
         return new KafkaTemplate<>(employerProducerFactory());
     }
 }

@@ -29,6 +29,4 @@ public class ServiceTypeService {
         typeServiceDto.setId(typeService.getId());
         return typeService;
     }
-
-
 }

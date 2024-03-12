@@ -3,6 +3,7 @@ package org.example.myservices.controller;
 import lombok.RequiredArgsConstructor;
 import org.example.baseservice.dto.EmployerServiceDto;
 import org.example.baseservice.dto.MyServiceDto;
+import org.example.baseservice.event.EmployerEvens;
 import org.example.myservices.services.ServiceEmployer;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
@@ -16,8 +17,8 @@ public class EmployerServiceController {
     @GetMapping
     public ResponseEntity getAllEmployerServices(){return new ResponseEntity(serviceEmployer.getAllEmployerService(), HttpStatus.OK);}
 
-//    @PatchMapping
-//    public ResponseEntity saveEmployerSercices(@RequestBody EmployerServiceDto employerServiceDto){
-//        return new ResponseEntity(serviceEmployer.(employerServiceDto),HttpStatus.CREATED);
-//    }
+    @PatchMapping
+    public ResponseEntity saveEmployerSercices(@RequestBody EmployerEvens employerEvens){
+        return new ResponseEntity(serviceEmployer.saveEmployerServices(employerEvens),HttpStatus.CREATED);
+    }
 }
