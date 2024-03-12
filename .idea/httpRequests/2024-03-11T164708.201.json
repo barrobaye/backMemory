@@ -1,0 +1,10 @@
+{
+  "employerServiceDto": {
+    "employer_id": "803b0526-911c-49b0-a42f-1ee7da90daa2",
+    "service_id": "273f19a6-9ebd-4a16-b852-7d5569921547",
+    "dateCreation": "2024-03-11T16:47:07.901+00:00"
+  },
+  "employerServiceStatus": "ERREUR",
+  "evensDate": "2024-03-11T16:47:08.162+00:00",
+  "evensId": "1f5c8c46-598d-4c86-b411-1885176cb221"
+}
